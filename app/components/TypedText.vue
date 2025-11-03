@@ -39,7 +39,7 @@ const tick = () => {
   const words = props.words?.length ? props.words : []
   if (!words.length) return
 
-  const currentWord: string|undefined = words[activeWordIndex.value]
+  const currentWord = words[activeWordIndex.value]
   if (!currentWord) return
   if (!isDeleting.value) {
     activeCharIndex.value = Math.min(activeCharIndex.value + 1, currentWord.length)
