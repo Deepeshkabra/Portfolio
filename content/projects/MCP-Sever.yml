@@ -1,0 +1,17 @@
+title: MCP Server
+description: This project is a sophisticated personality coaching system that combines MBTI personality assessment, intelligent matching algorithms, and personalized coaching tools. Built for the Puch AI Hackathon, it demonstrates the power of MCP to create AI-driven personality insights and coaching.
+image: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80 # Example image related to code/development
+demo: "https://reactnative.dev/"
+github: "https://github.com/Deepeshkabra/Vehicle-Parking-App-22F3001136"
+tech:
+  - name: FastAPI
+    icon: i-simple-icons-fastapi
+  - name: FastMCP
+    icon: i-octicon-mcp-16
+  - name: Digital Ocean
+    icon: i-logos-digital-ocean
+  - name: supabase
+    icon: i-simple-icons-supabase
+  - name: Docker
+    icon: i-simple-icons-docker
+date: "2025"

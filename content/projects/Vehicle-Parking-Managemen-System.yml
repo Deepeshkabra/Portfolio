@@ -1,0 +1,22 @@
+title: Vehicle Parking Management System
+description: This project is a comprehensive multi-user Vehicle Parking Management System designed to handle parking lot operations efficiently. The system supports two user roles - Admin (superuser) for managing parking lots and viewing analytics, and Users for booking parking spots and tracking their parking history. The application implements role-based access control, automatic spot allocation, real-time availability tracking, and background job processing for reports and notifications.
+image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?... # keep yours
+url: "#"
+demo: "https://github.com/Deepeshkabra/Vehicle-Parking-App-22F3001136"
+github: "https://github.com/Deepeshkabra/Vehicle-Parking-App-22F3001136"
+tech:
+  - name: Flask
+    icon: i-simple-icons-flask
+  - name: Vue.js
+    icon: i-simple-icons-vuedotjs
+  - name: Bootstrap
+    icon: i-simple-icons-bootstrap
+  - name: Redis
+    icon: i-simple-icons-redis
+  - name: Celery
+    icon: i-simple-icons-celery
+  - name: PostgreSQL
+    icon: i-simple-icons-postgresql
+  - name: Docker
+    icon: i-simple-icons-docker
+date: "2025"

@@ -1,0 +1,22 @@
+title : Labelly 
+description: An AI-powered mobile application that instantly analyzes food ingredient labels to provide health insights, safety scores, and healthier product alternatives.
+image: https://images.unsplash.com/photo-1613858749733-3a3e456e3d9e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+demo: "https://reactnative.dev/"
+github: "https://github.com/Deepeshkabra/Vehicle-Parking-App-22F3001136"
+url: "#"
+tech:
+  - name: React Native
+    icon: i-simple-icons-react
+  - name: Flask
+    icon: i-simple-icons-flask
+  - name: perplexity
+    icon: i-simple-icons-perplexity
+  - name: Redis
+    icon: i-simple-icons-redis
+  - name: Expo
+    icon: i-simple-icons-expo
+  - name: Firebase
+    icon: i-simple-icons-firebase
+  - name: Docker
+    icon: i-simple-icons-docker
+date: "2025"

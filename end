@@ -1,0 +1,746 @@
+[33mcommit d078b68da1918e7b664f12f5cd7eab38f31948c7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Sep 24 14:42:39 2025 +0200
+
+    chore(deps): lock file maintenance (#36)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 046175dc8428ca0a4317ac3bcd16301e12b77b03[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Sep 24 14:29:28 2025 +0200
+
+    chore(deps): update dependency nuxt to ^4.1.2 (#41)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 0dbaedd48a94b552bb1e20feb13b0c3f80143667[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Sep 24 13:20:07 2025 +0200
+
+    chore(deps): update dependency nuxt to v4.1.0 [security] (#44)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit ab8b0692ed85e8f70e9e2f7a8acac2a7bd65f812[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Tue Sep 23 15:12:05 2025 +0200
+
+    chore(deps): update all non-major dependencies (#45)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit bc49e7d88b1ff0c63f8a443f52166a9ed9d598e8[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Sat Sep 20 14:47:43 2025 +0200
+
+    chore: update urls to `ui.nuxt.com`
+
+[33mcommit 483ff6e2e2227b6289c62772ec276824335b5159[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Thu Sep 18 15:17:54 2025 +0200
+
+    chore(readme): update vercel link
+
+[33mcommit 88cfa1b0cd75df5fcbceb7e34242388fd631f24d[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Thu Sep 18 15:17:49 2025 +0200
+
+    chore: remove `generate` command
+
+[33mcommit 4bc37d5b8aa0a076fbb4bd61895f7cebc5f2208c[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Wed Sep 17 15:58:49 2025 +0200
+
+    chore(readme): update quick start
+
+[33mcommit 3e482d25a644ff12c6e712e5bf964ee6ae698460[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Sep 17 14:30:52 2025 +0200
+
+    chore(deps): update all non-major dependencies (#43)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit afa0589531b6a1a2beb3391f1dcfeabf52f27c9e[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Thu Sep 11 15:27:35 2025 +0200
+
+    chore(readme): improve deploy button
+
+[33mcommit ead327dc174acde014f7d7579e881e7eb6e4ae2f[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon Sep 8 12:22:18 2025 +0200
+
+    chore(deps): update all non-major dependencies (#39)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit b6adc65b5781c857345c39f4db67bd2c69c8a7a2[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon Sep 8 11:58:28 2025 +0200
+
+    chore(deps): update actions/setup-node action to v5 (#42)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 631ab6b8c776e4bef0aef6e7647a8d2989f84d99[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Mon Sep 8 11:15:36 2025 +0200
+
+    chore(deps): move pnpm config in workspace
+
+[33mcommit 81250211b2efc8c8df0c211d20286744a7498586[m
+Author: Hugo Richard <hugo.richard@epitech.eu>
+Date:   Fri Sep 5 13:49:16 2025 +0200
+
+    feat: use local images in hero (#40)
+
+[33mcommit a453593786a097e3e3f04cf01fa738790ed88c5e[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Thu Sep 4 15:53:15 2025 +0200
+
+    chore(readme): add deploy button
+
+[33mcommit edf0b9bd8243107b9a52cef7c19e496c7bf5cd81[m
+Author: Hugo Richard <hugo.richard@epitech.eu>
+Date:   Thu Sep 4 14:59:35 2025 +0200
+
+    chore(deps): upgrade to `@nuxt/ui` v4 (#38)
+    
+    Co-authored-by: Benjamin Canac <canacb1@gmail.com>
+
+[33mcommit 0b4eaefad2028a4ef71607a4d5997ec33d7471c7[m[33m ([m[1;31morigin/v3[m[33m)[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Tue Sep 2 17:00:45 2025 +0200
+
+    chore(renovate): remove `baseBranches`
+
+[33mcommit 1a336ea7ca829e8861cf0736432174a1c66ee9be[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon Aug 25 11:41:22 2025 +0200
+
+    chore(deps): update all non-major dependencies (#35)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit abd0a04fc4f60e1d067557449f249018bb7fa40d[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Thu Aug 14 14:21:54 2025 +0200
+
+    chore(deps): update actions/checkout action to v5 (#37)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 255641fd9170bf63ce0790f2cad7739a25692f89[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Thu Aug 14 14:09:12 2025 +0200
+
+    chore(deps): update dependency nuxt to ^4.0.3 (#32)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit e3641e65209755e04e5c397cd09fe53b464ca45e[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Thu Jul 17 12:18:21 2025 +0200
+
+    chore(tsconfig): update for nuxt 4
+
+[33mcommit de15fa0b63a8856eb8be2f1e67e5c2b38da5d932[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Thu Jul 17 12:18:16 2025 +0200
+
+    chore(nuxt.config): remove `future.compatibilityVersion`
+
+[33mcommit 442d213cdb9ba4842d3b094cc45eadd7e1ec6e28[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Jul 16 22:19:57 2025 +0200
+
+    chore(deps): lock file maintenance (#33)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 13c1c7e8d649d5b08dec5f71a645d5c65da2728b[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Jul 16 22:13:39 2025 +0200
+
+    chore(deps): update all non-major dependencies (#30)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 1c266b00a9a11c0ffd3e1af7cd2466afa09eab1a[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Jul 16 14:42:56 2025 +0200
+
+    chore(deps): update dependency nuxt to v4 (#34)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit e5a789541937d7912216538de45ca0f15a770cad[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Jul 16 13:58:39 2025 +0200
+
+    chore(deps): update devdependency vue-tsc to v3 (#31)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit db3bac1e9b9894b6cc780465449f711280b4921f[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Jul 2 16:52:05 2025 +0200
+
+    chore(deps): update dependency nuxt to ^3.17.6 (#29)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 686c7900ba679d807fe4c93e716a6180cb15c30c[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon Jun 30 11:57:03 2025 +0200
+
+    chore(deps): lock file maintenance (#28)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit a0187cb31880ad41bd25cb640dd38da0cd98cd1b[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon Jun 30 10:41:43 2025 +0200
+
+    chore(deps): update all non-major dependencies (#27)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit a71d74baea7d101b0f26c93ff6f6747a42b11171[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon Jun 23 16:08:06 2025 +0200
+
+    chore(deps): lock file maintenance (#26)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+    Co-authored-by: Benjamin Canac <canacb1@gmail.com>
+
+[33mcommit 72c980489c756e3dd1abab5f233465d9e4af88d6[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon Jun 23 12:43:27 2025 +0200
+
+    chore(deps): update all non-major dependencies (#25)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+    Co-authored-by: Benjamin Canac <canacb1@gmail.com>
+
+[33mcommit 9e6a774bcea6aed61a59beea2e003dc1a5381f3d[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Tue Jun 10 12:40:45 2025 +0200
+
+    chore(deps): lock file maintenance (#23)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit ba6c2d233b04572e129bc01cc137330d325e9473[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Tue Jun 10 12:17:54 2025 +0200
+
+    chore(deps): update all non-major dependencies (#22)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 3844646fbb6a9469b094dba7864e30ce546708d3[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Thu Jun 5 14:31:09 2025 +0200
+
+    chore(deps): update dependency nuxt to ^3.17.5 (#24)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 5f4bf04bda6d2cb6fae570f46dd96c4dc67361b5[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon May 26 16:37:37 2025 +0200
+
+    chore(deps): lock file maintenance (#21)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit f554397d5e998451e0bcd8e4209757195e6fe125[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon May 26 16:26:28 2025 +0200
+
+    chore(deps): update all non-major dependencies (#20)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 5bba3e1450da81a91843d2b9f2d029e6453103cf[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Thu May 22 17:42:08 2025 +0200
+
+    chore(deps): update dependency nuxt to ^3.17.4 (#19)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit a72d09819bbed9abb406d27902bb5e61725796eb[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon May 19 12:43:18 2025 +0200
+
+    chore(deps): lock file maintenance (#17)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 0afa183d8f29647d7a453b6ad08480cd96c058f2[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon May 19 11:05:12 2025 +0200
+
+    chore(deps): update all non-major dependencies (#16)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 1ef4329f68d234821cdeca06f3c68d823f915a93[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue May 13 17:53:46 2025 +0200
+
+    fix: improve speaking link hover state
+
+[33mcommit ffada922ffe47a3419a3fb33c0ec72c64a879dee[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Tue May 13 13:56:42 2025 +0200
+
+    chore(deps): update dependency nuxt to ^3.17.3 (#18)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 430b475c05368d0c57e60be8038d562d86993aa5[m
+Author: Hugo Richard <hugo.richard@epitech.eu>
+Date:   Tue May 6 11:57:21 2025 +0200
+
+    fix: add sharp to `onlyBuiltDependencies` (#15)
+
+[33mcommit cf134991971aee36a6525a3d64741f3710b16d1e[m
+Author: Vachmara <valentinchmara@gmail.com>
+Date:   Mon May 5 21:53:02 2025 +0200
+
+    fix: article link (#14)
+
+[33mcommit 1cf046ffab78aa3858048541b7094fe9641903b7[m
+Author: Vachmara <valentinchmara@gmail.com>
+Date:   Mon May 5 14:57:59 2025 +0200
+
+    fix: more than 3 testimonials break UI (#10)
+    
+    Co-authored-by: Hugo Richard <hugo.richard@epitech.eu>
+
+[33mcommit 1e9924af53f025b79c0f03af419f910758f365b8[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon May 5 14:34:24 2025 +0200
+
+    chore(deps): lock file maintenance (#12)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 15d9564cd36d992904e6a13c4e9aaaa4a03e8c37[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon May 5 14:26:18 2025 +0200
+
+    chore(deps): update dependency nuxt to ^3.17.2 (#13)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit 25e368d0a3d5168ce6f78ebf402c08b4fdaec56c[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon May 5 12:30:56 2025 +0200
+
+    chore(deps): update all non-major dependencies (#11)
+    
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+[33mcommit b6a755192a189bef2711a1dd088c0aa1a3e8cf0b[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Mon May 5 10:10:01 2025 +0200
+
+    chore(deps): update `@nuxt/ui-pro`
+
+[33mcommit f2cc51fb2091179a910cf56b4e15e84887ff52e3[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Thu May 1 14:51:16 2025 +0200
+
+    chore(app): fix hero responsive
+
+[33mcommit fb8730cb84e4a03af040d6c1e9ca6047c2184baa[m
+Author: Baptiste Leproux <leproux.baptiste@gmail.com>
+Date:   Thu May 1 11:54:35 2025 +0200
+
+    fix(blog): apply mdc standard format
+
+[33mcommit 03f9b643c71f6c459fdcea3653c66edb9c85f5d8[m
+Author: Baptiste Leproux <leproux.baptiste@gmail.com>
+Date:   Thu May 1 11:44:56 2025 +0200
+
+    chore(seo): standardize meta
+
+[33mcommit 551f6f29ac1e057b859703cb539167fd616429d4[m
+Author: Baptiste Leproux <leproux.baptiste@gmail.com>
+Date:   Thu May 1 11:42:37 2025 +0200
+
+    refactor(content): simplify collections definition
+
+[33mcommit a516ae1b1521e285a61df3304990196aa032733b[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Thu May 1 11:00:13 2025 +0200
+
+    fix(projects): format year
+
+[33mcommit 606133f77afbfa0596710bbf45640fb3c8fab405[m
+Author: Hugo Richard <hugo.richard@epitech.eu>
+Date:   Wed Apr 30 19:42:08 2025 +0200
+
+    chore(app): fix typecheck (#8)
+
+[33mcommit 884fd2d2f9af5431df20e127785de28517730b4a[m
+Author: Baptiste Leproux <leproux.baptiste@gmail.com>
+Date:   Wed Apr 30 18:44:34 2025 +0200
+
+    feat(content): simplify config and update schema (#7)
+
+[33mcommit 3ac5cf81cc12de39a0b8ec4be47eeaaa14e59dfc[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 30 15:41:58 2025 +0200
+
+    chore: fix cta link
+
+[33mcommit f8b5f0b9cce71823fb7dfb97b5a8d0eb786b5ace[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 30 13:44:47 2025 +0200
+
+    chore: overall improvements
+
+[33mcommit a3487f6fe6cdcf83570ecec50acc4a315a8b437f[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Wed Apr 30 12:09:12 2025 +0200
+
+    chore(app): update metas
+
+[33mcommit 75f21d19bd507d00ccf9f4e209fe39bf6b1af232[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Wed Apr 30 12:09:05 2025 +0200
+
+    chore(readme): update
+
+[33mcommit b5200451db67357ca6ecbee51528805c350147a1[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 30 11:31:46 2025 +0200
+
+    update index page
+
+[33mcommit 9dcc1e0df48bf80307dc4628270529e6366924f4[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 30 11:23:02 2025 +0200
+
+    remove table-of-content in blog
+
+[33mcommit c7522177fd73ad33a8d029e4b336a3e02867e357[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Wed Apr 30 11:07:57 2025 +0200
+
+    chore(deps): missing `^` on `motion-vue`
+
+[33mcommit 27f5cff28218e07a8cd54b7b3df5fc0e39e29096[m
+Merge: 4c2d951 72af967
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 30 10:58:46 2025 +0200
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 4c2d95179d2160abb66a091fad3610a3c4481ee7[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 30 10:23:43 2025 +0200
+
+    improve content integration
+
+[33mcommit 72af96796df20a50c25be402d49759a7667c7851[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Wed Apr 30 10:52:01 2025 +0200
+
+    chore(nuxt.config): clean
+
+[33mcommit 5d955df3f885c51a93689f7dcece98caa9bf27b8[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Wed Apr 30 10:50:43 2025 +0200
+
+    chore(deps): run `approve-builds`
+
+[33mcommit d63857f175cdedb7a824c0327473ea1d4a839a18[m
+Author: Benjamin Canac <canacb1@gmail.com>
+Date:   Wed Apr 30 10:50:26 2025 +0200
+
+    chore(deps): remove `vue-tsc` resolution
+
+[33mcommit 14b4dfc0e100bcbd54af9340a330231328af6927[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 22:13:39 2025 +0200
+
+    up
+
+[33mcommit 5b8937bbb55a64f46dbe783c38532fdb92d4a26d[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 16:32:34 2025 +0200
+
+    up
+
+[33mcommit 39670753fe8ae7293a2f767f4fc4adec61b84c2d[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 15:59:37 2025 +0200
+
+    up
+
+[33mcommit af4e0f75f696693dad0c16ee41fb6062cd20b6d0[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 15:58:55 2025 +0200
+
+    up
+
+[33mcommit 6b74acda536336e1c3a7f997d743db79b018fbdb[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 15:42:38 2025 +0200
+
+    up
+
+[33mcommit 40bc9890fa4f229828da8daa8aa43e50f0abafe2[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 15:18:20 2025 +0200
+
+    up
+
+[33mcommit 14812b528dd34095513a59a4d61d030b04027d25[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 14:57:27 2025 +0200
+
+    up
+
+[33mcommit 5f35857a593089d23f58e2e529d6c33e2e77750a[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 14:25:59 2025 +0200
+
+    up
+
+[33mcommit ce1d7b97be7ebf8a9b74ac388dc4e8a317c42055[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 13:29:23 2025 +0200
+
+    up
+
+[33mcommit d1be49756540c673b01db02d78f36b945bef571c[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 11:50:39 2025 +0200
+
+    up
+
+[33mcommit 9cc4891cb671773c74f3f776159e356befe067be[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 11:31:52 2025 +0200
+
+    up
+
+[33mcommit 7e3e0aeb285c70cc6b9056b1006fb2cd3017bef0[m
+Merge: e5567e9 869158c
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 10:27:34 2025 +0200
+
+    Merge remote-tracking branch 'origin/renovate/nuxt'
+
+[33mcommit e5567e9cb5f6f004dbfb62ba767c3b1ca92fd4e9[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 29 10:27:31 2025 +0200
+
+    up
+
+[33mcommit 869158cdeb28ad9925eb813383f4b772040558c0[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Tue Apr 29 03:46:02 2025 +0000
+
+    chore(deps): update dependency nuxt to ^3.17.1
+
+[33mcommit eda31fdf30a2e8f67e5965622d232738770cbc95[m
+Merge: 0dc6481 66cf4c8
+Author: Hugo Richard <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 22:39:46 2025 +0200
+
+    Merge pull request #4 from nuxt-ui-pro/renovate/all-minor-patch
+
+[33mcommit 66cf4c8f1a5b13332010dfae04f4f4954b0aef81[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon Apr 28 20:29:20 2025 +0000
+
+    chore(deps): update all non-major dependencies
+
+[33mcommit 0dc6481f6022dde2b7d5968e8121149b466d3c78[m
+Merge: ce3488a c98eeaa
+Author: Hugo Richard <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 22:27:54 2025 +0200
+
+    Merge pull request #5 from nuxt-ui-pro/renovate/nuxt
+
+[33mcommit c98eeaa29f67f58f61ae66028d4e26ea562b5de8[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Mon Apr 28 20:25:31 2025 +0000
+
+    chore(deps): update dependency nuxt to ^3.17.0
+
+[33mcommit ce3488aff9d761851dc4099710b5ddd8cd1e85ce[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 21:48:23 2025 +0200
+
+    up
+
+[33mcommit a221fee6ab6ca140483e7710702d87eff3764e3b[m
+Merge: 9d4ec12 03bb5c6
+Author: Hugo Richard <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 21:46:22 2025 +0200
+
+    Merge pull request #3 from nuxt-ui-pro/feat/add-projects
+
+[33mcommit 03bb5c6a72eeb9c615653a2f684723b50ee3c177[m[33m ([m[1;31morigin/feat/add-projects[m[33m)[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 21:45:23 2025 +0200
+
+    up
+
+[33mcommit 725bb768d1fd75d8a17787ffbc4223e1d7913a96[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 16:09:27 2025 +0200
+
+    up
+
+[33mcommit 71432d75a71611217c6104d4fa4f189a71f99d83[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 14:53:07 2025 +0200
+
+    up
+
+[33mcommit 8a50a50be739633f9e443db1cb1347f9a1e2e432[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 13:42:03 2025 +0200
+
+    feat: add projects
+
+[33mcommit 9d4ec12fed9b8d6ef8f55af822508ecf8ad08db9[m
+Merge: b5ff619 beb414b
+Author: Hugo Richard <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 13:40:21 2025 +0200
+
+    Merge pull request #2 from nuxt-ui-pro/feat/add-homepage
+
+[33mcommit beb414be414fb0a1d093085934803fdc32252548[m[33m ([m[1;31morigin/feat/add-homepage[m[33m)[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 13:31:35 2025 +0200
+
+    up
+
+[33mcommit efa266ce010660cc28976426cdf348c920d1e2a2[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Mon Apr 28 10:36:11 2025 +0200
+
+    up
+
+[33mcommit 164b8630de0bfad82578ee63ba0d23c6813c728f[m
+Merge: 8fe65d4 b5ff619
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Sun Apr 27 12:25:05 2025 +0200
+
+    Merge remote-tracking branch 'origin/main' into feat/add-homepage
+
+[33mcommit 8fe65d49c3ebd791c60ef6318189a188eddf659e[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Sun Apr 27 12:25:00 2025 +0200
+
+    up
+
+[33mcommit b5ff619f9f6f3f854622a35a75bee8417d7c180d[m
+Author: nuxthub-admin[bot] <163076504+nuxthub-admin[bot]@users.noreply.github.com>
+Date:   Thu Apr 24 20:12:29 2025 +0000
+
+    ci: add nuxthub workflow
+
+[33mcommit 008cf0214ca6a992b84026185bef5054fd9ec1e1[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 23 22:23:19 2025 +0200
+
+    up
+
+[33mcommit f904434d2a99557a95b890052de7392d2761940c[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 23 21:59:34 2025 +0200
+
+    up
+
+[33mcommit 1219b4de19722665dd311531171be976c705f732[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 23 21:48:27 2025 +0200
+
+    up
+
+[33mcommit c4e925e46ab8b4f6ab5bedf46d8b4bc1ccd5e1bf[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 23 21:12:59 2025 +0200
+
+    init project
+
+[33mcommit 1b4cc9b27d4d8d5f583e4f4fd85ff25e67f725fe[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 23 21:12:33 2025 +0200
+
+    up
+
+[33mcommit b07a56978baec922a5356d4907a3c58711b6f363[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 23 21:10:31 2025 +0200
+
+    up
+
+[33mcommit ecd63aabe22539340e32e919fdbe667761f31db6[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 23 20:15:40 2025 +0200
+
+    up
+
+[33mcommit a12222c73bc1ec51d951dcf0eca51accf389839d[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 23 13:52:03 2025 +0200
+
+    up
+
+[33mcommit a99e19deeffdadd80e76ece63edfa80143940c9d[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 23 12:13:45 2025 +0200
+
+    up
+
+[33mcommit 59176e39cb11ac014495c116b57a848fce922d56[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 23 11:11:57 2025 +0200
+
+    up
+
+[33mcommit cd26e35b739004d3ce8a605d18bb250942258cc4[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 22 16:54:36 2025 +0200
+
+    up
+
+[33mcommit 69ed599bcd6e38a62c6c5bbf140c4521245bc393[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 22 15:10:03 2025 +0200
+
+    up
+
+[33mcommit 584bc1f4d9b7f00e37a116aff5a61ea1d702e3de[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Tue Apr 22 14:42:00 2025 +0200
+
+    feat: add homepage
+
+[33mcommit 2b5e31b72dcb83211d786d4fb6866f224478f2ba[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 16 18:48:30 2025 +0200
+
+    up
+
+[33mcommit 524f19713ad1a1fb7453bf42e6507c53c4cf452d[m
+Author: HugoRCD <hugo.richard@epitech.eu>
+Date:   Wed Apr 16 18:47:15 2025 +0200
+
+    init project

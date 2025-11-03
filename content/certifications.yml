@@ -1,0 +1,51 @@
+title: Certifications
+description: Key certifications and credentials
+items:
+  - title: Diploma in Programming 
+    type: Professional Certificate
+    date: Sep 2025
+    issuer:
+      name: IIT Madras
+      url: "https://study.iitm.ac.in/ds/"
+      logo: /IIT%20Madras_idSRvDXafD_1.svg
+      color: "#D6A64F"
+    bullets:
+      - Python, Java, SQL, HTML, CSS, VueJS, flask 
+      - Docker, Kubernetes, Git, GitHub, CI/CD, Azure, AWS, GCP
+    url: "https://storage.googleapis.com/online-degree-app-production-documents/CERTIFICATE/DIPLOMA_CERTIFICATE/F2_2025/df2ae0e5284fefe886a4bc93f2bb94fe6c98e5650d0c9203522243fba03123fb.pdf?Expires=1762003185&GoogleAccessId=production-document-storage-si%40online-degree-app.iam.gserviceaccount.com&Signature=N7E%2FXZSafvrYsOWcBnvSlXQAzAsFWT0oI8nyZV%2BLj697haVzazfgkK7ZCmW6FNBJFdM4swhsgDVzBHSpibRBZyxzw%2FOtniGz4uAkW2UDza8DV1OmcNamOWGHE55H2tcrbPk6EjgdhXXPdgLyo%2BQ8MwuLMB1x4TyfhlM%2BxDzM7RGuw6sH7x%2Boq92VDXtHVx6hmJhdRbGu4T7Abl%2B6qubjYz14nVZZq0JElfZrj9RMmXcCKBq2v0NZSFJOfSr%2BXEfqFZU10EoDfPVn1vbpws%2F6exp%2B3A4hsoow%2FrOTTjRPiLSdox9yBvvcZEohYbpSmoLa3pahF0uRHR0judWFsN2hrg%3D%3D"
+  - title: Ambient AI Agent 
+    type: Professional Certificate
+    date: Oct 2025
+    issuer:
+      name: LangChain Academy
+      url: "https://academy.langchain.com/certificates/owbaff4nb8"
+      logo: i-simple-icons-langchain
+      color: "#1D3C3E"
+    bullets:
+      - AI Agents, LangGraph, LangChain, Python
+      - LLMs, Embeddings, Vector Databases, Retrieval Augmented Generation
+    url: "https://academy.langchain.com/certificates/owbaff4nb8"
+  - title: Cisco Certified Junior Cybersecurity Analyst
+    type: Professional Certificate
+    date: April 2025
+    issuer: 
+      name: Cisco
+      url: "https://www.credly.com/badges/d8b53478-29ac-44eb-a72e-b43abd01012b/public_url"
+      logo: i-simple-icons-cisco
+      color: "#02C8FF"
+    bullets:
+      - Network Security, Cybersecurity, Network Architecture, Network Operations
+    url: "https://www.credly.com/badges/d8b53478-29ac-44eb-a72e-b43abd01012b/public_url"
+
+
+  - title: Blockchain Developer
+    type: Professional Certificate
+    date: April 2025
+    issuer:
+      name: IBM Career Education Program
+      url: "https://courses.ibmcep.cognitiveclass.ai/certificates/b93f1fe838fe4426a45b77b6fbfbf403"
+      logo: i-simple-icons-ibm
+      color: "#1F70C1"
+    bullets:
+      - Blockchain, Blockchain Development, Blockchain Technology, Blockchain Applications
+    url: "https://courses.ibmcep.cognitiveclass.ai/certificates/b93f1fe838fe4426a45b77b6fbfbf403"
