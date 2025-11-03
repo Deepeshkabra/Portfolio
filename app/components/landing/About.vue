@@ -13,7 +13,6 @@ const props = defineProps<{
 //     .filter(Boolean)
 //     .map(s => s.replace(/^\s*[-•]\s*/, ''))
 // })
-
 </script>
 
 <template>
@@ -31,7 +30,9 @@ const props = defineProps<{
         <p
           v-for="(p, i) in (props.page.about.paragraphs?.length ? props.page.about.paragraphs : (props.page.about.description || '').split(/\n\s*\n+/).filter(Boolean))"
           :key="i"
-        >{{ p }}</p>
+        >
+          {{ p }}
+        </p>
       </div>
     </template>
   </UPageSection>

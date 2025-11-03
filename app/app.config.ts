@@ -5,7 +5,7 @@ export default defineAppConfig({
       light: '/me.jpg',
       alt: 'My profile picture'
     },
-    meetingLink: 'https://cal.com/deepesh-kabra', 
+    meetingLink: 'https://cal.com/deepesh-kabra',
     email: 'deepeshkabrawork@gmail.com',
     available: true
   },
@@ -39,12 +39,12 @@ export default defineAppConfig({
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/Deepeshkabra',
       'target': '_blank',
-      'aria-label': 'Deepesh Kabra on GitHub',
+      'aria-label': 'Deepesh Kabra on GitHub'
     }, {
       'icon': 'i-simple-icons-linkedin',
       'to': 'https://www.linkedin.com/in/deepeshkabra/',
       'target': '_blank',
-      'aria-label': 'Deepesh Kabra on LinkedIn',
+      'aria-label': 'Deepesh Kabra on LinkedIn'
     }]
   }
 })

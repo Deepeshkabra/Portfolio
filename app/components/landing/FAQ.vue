@@ -9,7 +9,7 @@ defineProps<{
 
 const name = ref('')
 const email = ref('')
-const message = ref("Hey Deepesh, love the website! I'd like to chat about some opportunities you might like!")
+const message = ref('Hey Deepesh, love the website! I\'d like to chat about some opportunities you might like!')
 
 const subject = computed(() => `Portfolio inquiry from ${name.value || 'Visitor'}`)
 const body = computed(() => `${message.value}\n\nFrom: ${name.value} <${email.value}>`)
@@ -32,17 +32,31 @@ const mailto = computed(() => `mailto:${global.email}?subject=${encodeURICompone
     >
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <UFormGroup label="Name">
-          <UInput v-model="name" placeholder="Your name" />
+          <UInput
+            v-model="name"
+            placeholder="Your name"
+          />
         </UFormGroup>
         <UFormGroup label="Email">
-          <UInput v-model="email" placeholder="Your email" type="email" />
+          <UInput
+            v-model="email"
+            placeholder="Your email"
+            type="email"
+          />
         </UFormGroup>
       </div>
       <UFormGroup label="Message">
-        <UTextarea v-model="message" :rows="8" />
+        <UTextarea
+          v-model="message"
+          :rows="8"
+        />
       </UFormGroup>
       <div class="flex items-center justify-between">
-        <UButton :to="mailto" label="Send Message" size="lg" />
+        <UButton
+          :to="mailto"
+          label="Send Message"
+          size="lg"
+        />
       </div>
     </UCard>
   </UPageSection>

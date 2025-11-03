@@ -33,7 +33,6 @@ const styleFor = (i: number) => {
   >
     <div style="perspective: 1200px">
       <UCarousel
-        @select="(i: number) => (current = i)"
         v-slot="{ item, index }"
         :items="certs.items"
         :autoplay="{ delay: 4500 }"
@@ -45,8 +44,12 @@ const styleFor = (i: number) => {
           item: 'px-3 basis-full sm:basis-1/2 lg:basis-1/3',
           viewport: '-mx-4 sm:-mx-12 lg:-mx-16 max-w-(--ui-container)'
         }"
+        @select="(i: number) => (current = i)"
       >
-        <div class="transform-gpu transition-all duration-500 ease-in-out" :style="styleFor(index)">
+        <div
+          class="transform-gpu transition-all duration-500 ease-in-out"
+          :style="styleFor(index)"
+        >
           <UCard class="h-full bg-elevated/60 ring-1 ring-white/10 shadow-2xl">
             <!-- <div class="flex items-center gap-3 text-muted">
               <UIcon v-if="item.issuer.logo" :name="item.issuer.logo" class="text-3xl" />
@@ -57,23 +60,52 @@ const styleFor = (i: number) => {
               <div class="ml-auto text-sm">{{ item.date }}</div>
             </div> -->
             <div class="flex items-center gap-3 text-muted">
-              <UIcon v-if="item.issuer.logo && item.issuer.logo.startsWith('i-')" :name="item.issuer.logo" class="text-3xl" />
-              <img v-else-if="item.issuer.logo" :src="item.issuer.logo" alt="" class="h-8 w-8 object-contain" />
+              <UIcon
+                v-if="item.issuer.logo && item.issuer.logo.startsWith('i-')"
+                :name="item.issuer.logo"
+                class="text-3xl"
+              />
+              <img
+                v-else-if="item.issuer.logo"
+                :src="item.issuer.logo"
+                alt=""
+                class="h-8 w-8 object-contain"
+              >
               <div class="text-sm">
-                <div class="font-semibold" :style="{ color: item.issuer.color }">{{ item.issuer.name }}</div>
+                <div
+                  class="font-semibold"
+                  :style="{ color: item.issuer.color }"
+                >
+                  {{ item.issuer.name }}
+                </div>
                 <div>{{ item.type }}</div>
               </div>
-              <div class="ml-auto text-sm">{{ item.date }}</div>
+              <div class="ml-auto text-sm">
+                {{ item.date }}
+              </div>
             </div>
-            <h3 class="mt-4 text-2xl font-extrabold">{{ item.title }}</h3>
+            <h3 class="mt-4 text-2xl font-extrabold">
+              {{ item.title }}
+            </h3>
             <ul class="mt-4 space-y-1 text-muted">
-              <li v-for="(b, i) in item.bullets" :key="i" class="flex gap-2">
+              <li
+                v-for="(b, i) in item.bullets"
+                :key="i"
+                class="flex gap-2"
+              >
                 <span class="i-heroicons-check-circle-20-solid text-success" />
                 <span>{{ b }}</span>
               </li>
             </ul>
             <div class="mt-6">
-              <UButton :to="item.url" target="_blank" icon="i-heroicons-arrow-top-right-on-square" color="primary">View Credential</UButton>
+              <UButton
+                :to="item.url"
+                target="_blank"
+                icon="i-heroicons-arrow-top-right-on-square"
+                color="primary"
+              >
+                View Credential
+              </UButton>
             </div>
           </UCard>
         </div>
@@ -81,5 +113,3 @@ const styleFor = (i: number) => {
     </div>
   </UPageSection>
 </template>
-
-

@@ -84,8 +84,15 @@ onMounted(() => {
           </div>
         </template>
         <div class="flex flex-col">
-          <img :src="project.image" :alt="project.title" class="object-cover w-full h-48 rounded-lg">
-          <div v-if="project.tech?.length" class="flex flex-wrap gap-2 mt-3">
+          <img
+            :src="project.image"
+            :alt="project.title"
+            class="object-cover w-full h-48 rounded-lg"
+          >
+          <div
+            v-if="project.tech?.length"
+            class="flex flex-wrap gap-2 mt-3"
+          >
             <UBadge
               v-for="(t, i) in project.tech"
               :key="i"
@@ -93,7 +100,11 @@ onMounted(() => {
               color="neutral"
               class="gap-1"
             >
-              <UIcon v-if="t.icon" :name="t.icon" class="size-4" />
+              <UIcon
+                v-if="t.icon"
+                :name="t.icon"
+                class="size-4"
+              />
               {{ t.name }}
             </UBadge>
           </div>

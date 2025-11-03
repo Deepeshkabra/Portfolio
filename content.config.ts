@@ -85,12 +85,12 @@ export default defineContentConfig({
         title: z.string().nonempty(),
         description: z.string().nonempty(),
         image: z.string().nonempty().editor({ input: 'media' }),
-        url: z.string().nonempty(),        // Page or case study
+        url: z.string().nonempty(), // Page or case study
         demo: z.string().url().optional(), // Live demo link
         github: z.string().url().optional(), // Repo link
         tech: z.array(z.object({
           name: z.string(),
-          icon: z.string().optional()      // e.g. "i-simple-icons-react"
+          icon: z.string().optional() // e.g. "i-simple-icons-react"
         })).default([]),
         date: z.date()
       })

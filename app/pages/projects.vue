@@ -25,7 +25,10 @@ useSeoMeta({
 </script>
 
 <template>
-  <UPage v-if="page" class="projects-page">
+  <UPage
+    v-if="page"
+    class="projects-page"
+  >
     <UPageHero
       :title="page.title"
       :description="page.description"
@@ -118,7 +121,10 @@ useSeoMeta({
               :alt="project.title"
               class="object-cover w-full h-48 rounded-lg"
             >
-            <div v-if="project.tech?.length" class="flex flex-wrap gap-2 mt-3">
+            <div
+              v-if="project.tech?.length"
+              class="flex flex-wrap gap-2 mt-3"
+            >
               <UBadge
                 v-for="(t, i) in project.tech"
                 :key="i"
@@ -126,7 +132,11 @@ useSeoMeta({
                 color="neutral"
                 class="gap-1"
               >
-                <UIcon v-if="t.icon" :name="t.icon" class="size-4" />
+                <UIcon
+                  v-if="t.icon"
+                  :name="t.icon"
+                  class="size-4"
+                />
                 {{ t.name }}
               </UBadge>
             </div>

@@ -41,7 +41,10 @@ defineProps<{
         /> -->
         <NuxtImg
           :src="$colorMode.value === 'dark' ? global.picture?.dark : global.picture?.light"
-          width="256" height="256" sizes="200px" densities="x1 x2"
+          width="256"
+          height="256"
+          sizes="200px"
+          densities="x1 x2"
           class="size-50 rounded-full object-cover ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
           alt="My profile picture"
         />
@@ -89,10 +92,18 @@ defineProps<{
         <p class="text-xl sm:text-2xl font-semibold">
           I'm a
           <ClientOnly>
-            <TypedText :words="page.hero?.roles || []" :type-speed="85" :delete-speed="45" :pause-ms="1200" :class="'text-[#00DC82]'"/>
+            <TypedText
+              :words="page.hero?.roles || []"
+              :type-speed="85"
+              :delete-speed="45"
+              :pause-ms="1200"
+              :class="'text-[#00DC82]'"
+            />
           </ClientOnly>
         </p>
-        <p class="mt-3">{{ page.description }}</p>
+        <p class="mt-3">
+          {{ page.description }}
+        </p>
       </Motion>
     </template>
 
@@ -167,7 +178,5 @@ defineProps<{
         </Motion>
       </div>
     </template>
-
-    
   </UPageHero>
 </template>
