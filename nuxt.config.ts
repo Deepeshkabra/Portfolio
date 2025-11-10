@@ -10,18 +10,14 @@ export default defineNuxtConfig({
     'motion-v/nuxt',
     '@unocss/nuxt',
   ],
-  app: {
-    // For GH Pages project sites set NUXT_APP_BASE_URL="/<repo-name>/"
-    // For custom domain or other hosts set "/"
-    baseURL: process.env.NUXT_APP_BASE_URL || '/'
-  },
+
   devtools: {
     enabled: true
   },
 
   css: ['~/assets/css/main.css'],
 
-  compatibilityDate: '2025-11-10',
+  compatibilityDate: '2024-11-01',
 
   nitro: {
     prerender: {
@@ -31,7 +27,7 @@ export default defineNuxtConfig({
       crawlLinks: true
     }
   },
-  
+
   eslint: {
     config: {
       stylistic: {
@@ -41,5 +37,3 @@ export default defineNuxtConfig({
     }
   }
 })
-
-
