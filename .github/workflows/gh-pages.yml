@@ -32,11 +32,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
-          cache-dependency-path: portfolio/pnpm-lock.yaml
     
       - run: pnpm --version
-      
+
+      - name: Get pnpm cache directory
+        id: cache-dir
+        run: echo "STORE_PATH=$(pnpm store path) >> $GITHUB_OUTPUT"
+
+      - uses: actions/cache@v4
+        with:
+          path: ${{ steps.cache-dir.outputs.STORE_PATH }}
+          key: pnpm-${{ runner.os }}-${{ hashFiles('portfolio/pnpm-lock.yaml') }}
+          restore-keys: ${{ runner.os }}-pnpm-store-
+
       - run: pnpm install --frozen-lockfile
 
       # Build for GitHub Pages (static)
