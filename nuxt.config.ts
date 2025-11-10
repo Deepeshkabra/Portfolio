@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-og-image',
     'motion-v/nuxt',
+    '@unocss/nuxt',
   ],
   app: {
     // For GH Pages project sites set NUXT_APP_BASE_URL="/<repo-name>/"
@@ -19,13 +20,6 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
-
-  unocss: {
-    safelist: [
-      'i-lucide-sun',
-      'i-lucide-moon',
-    ]
-  },
 
   compatibilityDate: '2025-11-10',
 
