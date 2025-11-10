@@ -24,13 +24,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v4
-
+      # Setup Node and enable built-in pnpm caching
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm
           cache-dependency-path: portfolio/pnpm-lock.yaml
+
+      # Use pnpm via Corepack, matching the version pinned in package.json
+      - name: Enable Corepack and set pnpm version
+        run: corepack enable && corepack prepare pnpm@10.17.1 --activate
 
       - run: pnpm install --frozen-lockfile
 
