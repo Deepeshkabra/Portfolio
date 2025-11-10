@@ -7,12 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vueuse/nuxt',
     'nuxt-og-image',
-<<<<<<< HEAD
     'motion-v/nuxt',
-    '@unocss/nuxt',
-=======
-    'motion-v/nuxt'
->>>>>>> parent of 7cc8244 (fix theme icon issue)
   ],
 
   devtools: {
@@ -21,15 +16,7 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  compatibilityDate: '2024-11-01',
-=======
   compatibilityDate: '2025-11-10',
->>>>>>> parent of 7cc8244 (fix theme icon issue)
-=======
-  compatibilityDate: '2024-11-01',
->>>>>>> parent of cd4b525 (fix the theme icon and svg issue)
 
   nitro: {
     prerender: {
