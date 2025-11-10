@@ -10,6 +10,12 @@ export default defineNuxtConfig({
     'motion-v/nuxt',
   ],
 
+  app: {
+    baseURL: process.env.NUXT_APP_BASE_URL || '/'
+    // For GH Pages project sites set NUXT_APP_BASE_URL="/<repo-name>/"
+    // For custom domain or other hosts set "/"
+  },
+
   devtools: {
     enabled: true
   },

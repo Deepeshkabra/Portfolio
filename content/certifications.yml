@@ -7,7 +7,7 @@ items:
     issuer:
       name: IIT Madras
       url: "https://study.iitm.ac.in/ds/"
-      logo: /IIT%20Madras_idSRvDXafD_1.svg
+      logo: ./IIT%20Madras_idSRvDXafD_1.svg
       color: "#D6A64F"
     bullets:
       - Python, Java, SQL, HTML, CSS, VueJS, flask 
