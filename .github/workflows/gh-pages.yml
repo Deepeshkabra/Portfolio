@@ -31,10 +31,12 @@ jobs:
           cache: pnpm
           cache-dependency-path: portfolio/pnpm-lock.yaml
 
-      # Use pnpm via Corepack, matching the version pinned in package.json
-      - name: Enable Corepack and set pnpm version
-        run: corepack enable && corepack prepare pnpm@10.17.1 --activate
-
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.17.1
+    
+      - run: pnpm --version
+      
       - run: pnpm install --frozen-lockfile
 
       # Build for GitHub Pages (static)
