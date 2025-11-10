@@ -20,6 +20,8 @@ defineProps<{
     >
       <template #list-trailing>
         <ColorModeButton />
+        <!-- Sentinel to ensure UnoCSS generates icon CSS in production -->
+        <span class="hidden i-lucide-sun i-lucide-moon" aria-hidden="true"></span>
       </template>
     </UNavigationMenu>
   </div>
