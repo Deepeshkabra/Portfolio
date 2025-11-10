@@ -1,0 +1,56 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: portfolio
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+          cache-dependency-path: portfolio/pnpm-lock.yaml
+
+      - run: pnpm install --frozen-lockfile
+
+      # Build for GitHub Pages (static)
+      - run: pnpm exec nuxt build --preset github_pages
+        env:
+          # For project pages:
+          NUXT_APP_BASE_URL: /Portfolio/
+          # For custom domain, use "/"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: portfolio/.output/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
